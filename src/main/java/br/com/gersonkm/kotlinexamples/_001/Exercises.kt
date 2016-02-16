@@ -4,11 +4,8 @@ interface Exercises {
 
     /**
      * Agrupa os [pedidos] pela quantidade de produtos que eles possuem.
-     * @author Pedido
-     * @since 1.2
-     * @see 2sads
      */
-    fun agrupaPedidosPorQtdeProduto(pedidos: List<Pedido>): Map<Int, List<Pedido>>;
+    fun agrupaPedidosPorQtdeProduto(pedidos: List<Pedido>): Map<Int, List<Pedido>>
 
     /**
      * Agrupa os [pedidos] que tenham pelo menos dois produtos pela quantidade de produtos.
